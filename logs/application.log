@@ -1,0 +1,208 @@
+05:52:35.306 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:52:45.348 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:52:45.356 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:52:45.358 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:52:45.359 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:52:45.362 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:52:45.363 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:54:08.214 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:54:15.524 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:54:15.533 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:54:15.534 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:54:15.536 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:54:15.538 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:54:15.539 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:55:31.272 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+05:55:35.838 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+05:55:35.848 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+05:55:35.850 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+05:55:35.851 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+05:55:35.852 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+05:55:35.854 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+05:56:41.446 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:56:46.526 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:56:46.535 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:56:46.537 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:56:46.539 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:56:46.541 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:56:46.543 [main] ERROR jm.task.core.jdbc.util.Util - Connection failed: No suitable driver found for jdbc:mysql://localhost:3306/user_database
+05:57:18.461 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:18.496 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' created successfully or already exists
+05:57:18.517 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:18.540 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Mikhail' added to the database
+05:57:18.541 [main] INFO  jm.task.core.jdbc.Main - User с именем — Mikhail добавлен в базу данных
+05:57:18.553 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:18.558 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Oksana' added to the database
+05:57:18.559 [main] INFO  jm.task.core.jdbc.Main - User с именем — Oksana добавлен в базу данных
+05:57:18.571 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:18.578 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Dmitri' added to the database
+05:57:18.579 [main] INFO  jm.task.core.jdbc.Main - User с именем — Dmitri добавлен в базу данных
+05:57:18.590 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:18.597 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Evgeni' added to the database
+05:57:18.598 [main] INFO  jm.task.core.jdbc.Main - User с именем — Evgeni добавлен в базу данных
+05:57:18.610 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:18.619 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Retrieved 4 users from the database
+05:57:18.619 [main] INFO  jm.task.core.jdbc.Main - User User{id=1, name='Mikhail', lastName='Ivanov', age=35}
+05:57:18.624 [main] INFO  jm.task.core.jdbc.Main - User User{id=2, name='Oksana', lastName='Guli', age=26}
+05:57:18.624 [main] INFO  jm.task.core.jdbc.Main - User User{id=3, name='Dmitri', lastName='Galuza', age=35}
+05:57:18.624 [main] INFO  jm.task.core.jdbc.Main - User User{id=4, name='Evgeni', lastName='Prohanov', age=35}
+05:57:18.635 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:18.661 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' cleaned successfully
+05:57:18.672 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:18.691 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+05:57:33.564 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.574 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+05:57:33.594 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.634 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' created successfully or already exists
+05:57:33.648 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.659 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Ivan' added to the database
+05:57:33.672 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.683 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Retrieved 1 users from the database
+05:57:33.696 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.710 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+05:57:33.723 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.751 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' created successfully or already exists
+05:57:33.763 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.768 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Ivan' added to the database
+05:57:33.779 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.783 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User with ID 1 successfully deleted
+05:57:33.794 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.806 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+05:57:33.816 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.839 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' created successfully or already exists
+05:57:33.849 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.855 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Ivan' added to the database
+05:57:33.865 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.866 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Retrieved 1 users from the database
+05:57:33.876 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.895 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+05:57:33.906 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.910 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+05:57:33.921 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.925 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+05:57:33.936 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.957 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' created successfully or already exists
+05:57:33.966 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:33.977 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+05:57:33.986 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:34.008 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' created successfully or already exists
+05:57:34.017 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:34.023 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Ivan' added to the database
+05:57:34.033 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:34.064 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' cleaned successfully
+05:57:34.073 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+05:57:34.074 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Retrieved 0 users from the database
+06:02:03.155 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:02:03.168 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' created successfully or already exists
+06:02:03.187 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:02:03.192 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Mikhail' added to the database
+06:02:03.193 [main] INFO  jm.task.core.jdbc.Main - User с именем — Mikhail добавлен в базу данных
+06:02:03.206 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:02:03.210 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Oksana' added to the database
+06:02:03.211 [main] INFO  jm.task.core.jdbc.Main - User с именем — Oksana добавлен в базу данных
+06:02:03.223 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:02:03.227 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Dmitri' added to the database
+06:02:03.227 [main] INFO  jm.task.core.jdbc.Main - User с именем — Dmitri добавлен в базу данных
+06:02:03.240 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:02:03.244 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - User 'Evgeni' added to the database
+06:02:03.245 [main] INFO  jm.task.core.jdbc.Main - User с именем — Evgeni добавлен в базу данных
+06:02:03.256 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:02:03.266 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Retrieved 4 users from the database
+06:02:03.266 [main] INFO  jm.task.core.jdbc.Main - User User{id=1, name='Mikhail', lastName='Ivanov', age=35}
+06:02:03.271 [main] INFO  jm.task.core.jdbc.Main - User User{id=2, name='Oksana', lastName='Guli', age=26}
+06:02:03.271 [main] INFO  jm.task.core.jdbc.Main - User User{id=3, name='Dmitri', lastName='Galuza', age=35}
+06:02:03.271 [main] INFO  jm.task.core.jdbc.Main - User User{id=4, name='Evgeni', lastName='Prohanov', age=35}
+06:02:03.283 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:02:03.316 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' cleaned successfully
+06:02:03.326 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:02:03.347 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Table 'users' dropped successfully
+06:05:23.174 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:23.213 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно создана или уже существует.
+06:05:23.234 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:23.241 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Mikhail' Ivanov (возраст: 35) добавлен в базу данных.
+06:05:23.243 [main] INFO  jm.task.core.jdbc.Main - User с именем — Mikhail добавлен в базу данных
+06:05:23.256 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:23.265 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Oksana' Guli (возраст: 26) добавлен в базу данных.
+06:05:23.266 [main] INFO  jm.task.core.jdbc.Main - User с именем — Oksana добавлен в базу данных
+06:05:23.278 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:23.287 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Dmitri' Galuza (возраст: 35) добавлен в базу данных.
+06:05:23.288 [main] INFO  jm.task.core.jdbc.Main - User с именем — Dmitri добавлен в базу данных
+06:05:23.300 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:23.303 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Evgeni' Prohanov (возраст: 35) добавлен в базу данных.
+06:05:23.303 [main] INFO  jm.task.core.jdbc.Main - User с именем — Evgeni добавлен в базу данных
+06:05:23.315 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:23.324 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Получено 4 пользователей из базы данных.
+06:05:23.325 [main] INFO  jm.task.core.jdbc.Main - User User{id=1, name='Mikhail', lastName='Ivanov', age=35}
+06:05:23.328 [main] INFO  jm.task.core.jdbc.Main - User User{id=2, name='Oksana', lastName='Guli', age=26}
+06:05:23.328 [main] INFO  jm.task.core.jdbc.Main - User User{id=3, name='Dmitri', lastName='Galuza', age=35}
+06:05:23.328 [main] INFO  jm.task.core.jdbc.Main - User User{id=4, name='Evgeni', lastName='Prohanov', age=35}
+06:05:23.339 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:23.368 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно очищена. Удалено строк: 0
+06:05:23.378 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:23.396 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.
+06:05:29.628 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.641 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.
+06:05:29.662 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.689 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно создана или уже существует.
+06:05:29.703 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.709 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Ivan' Ivanov (возраст: 5) добавлен в базу данных.
+06:05:29.723 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.733 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Получено 1 пользователей из базы данных.
+06:05:29.747 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.759 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.
+06:05:29.772 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.796 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно создана или уже существует.
+06:05:29.807 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.812 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Ivan' Ivanov (возраст: 5) добавлен в базу данных.
+06:05:29.822 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.827 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь с ID 1 успешно удалён.
+06:05:29.838 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.850 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.
+06:05:29.860 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.886 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно создана или уже существует.
+06:05:29.897 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.902 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Ivan' Ivanov (возраст: 5) добавлен в базу данных.
+06:05:29.911 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.912 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Получено 1 пользователей из базы данных.
+06:05:29.923 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.938 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.
+06:05:29.948 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.952 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.
+06:05:29.963 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.965 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.
+06:05:29.976 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:29.998 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно создана или уже существует.
+06:05:30.008 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:30.023 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.
+06:05:30.034 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:30.057 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно создана или уже существует.
+06:05:30.066 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:30.071 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Ivan' Ivanov (возраст: 5) добавлен в базу данных.
+06:05:30.081 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:30.130 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно очищена. Удалено строк: 0
+06:05:30.146 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:05:30.149 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Получено 0 пользователей из базы данных.
+06:07:49.882 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:07:49.894 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно создана или уже существует.
+06:07:49.914 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:07:49.920 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Mikhail' Ivanov (возраст: 35) добавлен в базу данных.
+06:07:49.922 [main] INFO  jm.task.core.jdbc.Main - User с именем — Mikhail добавлен в базу данных
+06:07:49.937 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:07:49.940 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Oksana' Guli (возраст: 26) добавлен в базу данных.
+06:07:49.941 [main] INFO  jm.task.core.jdbc.Main - User с именем — Oksana добавлен в базу данных
+06:07:49.954 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:07:49.958 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Dmitri' Galuza (возраст: 35) добавлен в базу данных.
+06:07:49.959 [main] INFO  jm.task.core.jdbc.Main - User с именем — Dmitri добавлен в базу данных
+06:07:49.971 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:07:49.975 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Пользователь 'Evgeni' Prohanov (возраст: 35) добавлен в базу данных.
+06:07:49.976 [main] INFO  jm.task.core.jdbc.Main - User с именем — Evgeni добавлен в базу данных
+06:07:49.988 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:07:49.998 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Получено 4 пользователей из базы данных.
+06:07:49.998 [main] INFO  jm.task.core.jdbc.Main - User User{id=1, name='Mikhail', lastName='Ivanov', age=35}
+06:07:50.002 [main] INFO  jm.task.core.jdbc.Main - User User{id=2, name='Oksana', lastName='Guli', age=26}
+06:07:50.002 [main] INFO  jm.task.core.jdbc.Main - User User{id=3, name='Dmitri', lastName='Galuza', age=35}
+06:07:50.002 [main] INFO  jm.task.core.jdbc.Main - User User{id=4, name='Evgeni', lastName='Prohanov', age=35}
+06:07:50.014 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:07:50.042 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно очищена. Удалено строк: 0
+06:07:50.052 [main] INFO  jm.task.core.jdbc.util.Util - Connection to DB succeeded!
+06:07:50.063 [main] INFO  j.task.core.jdbc.dao.UserDaoJDBCImpl - Таблица 'users' успешно удалена.

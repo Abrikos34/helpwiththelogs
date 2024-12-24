@@ -2,19 +2,23 @@ package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.util.Util;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class UserDaoJDBCImpl implements UserDao {
     private static final Logger logger = LoggerFactory.getLogger(UserDaoJDBCImpl.class);
 
     public UserDaoJDBCImpl() {
-        // TODO document why this constructor is empty
     }
 
+    /**
+     * Создание таблицы пользователей.
+     */
+    @Override
     public void createUsersTable() {
         String sql = "CREATE TABLE IF NOT EXISTS users (" +
                 "id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY, " +
@@ -22,72 +26,82 @@ public class UserDaoJDBCImpl implements UserDao {
                 "lastName VARCHAR(255) NOT NULL, " +
                 "age TINYINT NOT NULL" +
                 ")";
-
         try (Connection conn = Util.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.executeUpdate();
-            logger.info("Table 'users' created successfully or already exists");
+            logger.info("Таблица 'users' успешно создана или уже существует.");
         } catch (SQLException e) {
-            logger.error("Error creating table: {}", e.getMessage());
+            logger.error("Ошибка при создании таблицы 'users': {}", e.getMessage());
+            throw new RuntimeException(e);
         }
     }
 
+    /**
+     * Удаление таблицы пользователей.
+     */
+    @Override
     public void dropUsersTable() {
         String sql = "DROP TABLE IF EXISTS users";
-
         try (Connection conn = Util.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.executeUpdate();
-            logger.info("Table 'users' dropped successfully");
+            logger.info("Таблица 'users' успешно удалена.");
         } catch (SQLException e) {
-            logger.error("Error dropping table: {}", e.getMessage());
+            logger.error("Ошибка при удалении таблицы 'users': {}", e.getMessage());
+            throw new RuntimeException(e);
         }
     }
 
+    /**
+     * Сохранение пользователя в таблицу.
+     */
+    @Override
     public void saveUser(String name, String lastName, byte age) {
         String sql = "INSERT INTO users (name, lastName, age) VALUES (?, ?, ?)";
-
         try (Connection conn = Util.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
-
             pstmt.setString(1, name);
             pstmt.setString(2, lastName);
             pstmt.setByte(3, age);
-
             pstmt.executeUpdate();
-            logger.info("User с именем {} добавлен в базу данных", name);
+            logger.info("Пользователь '{}' {} (возраст: {}) добавлен в базу данных.", name, lastName, age);
         } catch (SQLException e) {
-            logger.error("Error saving user: {}", e.getMessage());
+            logger.error("Ошибка при добавлении пользователя: {}", e.getMessage());
+            throw new RuntimeException(e);
         }
     }
 
+    /**
+     * Удаление пользователя по ID.
+     */
+    @Override
     public void removeUserById(long id) {
         String sql = "DELETE FROM users WHERE id = ?";
-
         try (Connection conn = Util.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
-
             pstmt.setLong(1, id);
-
             int affectedRows = pstmt.executeUpdate();
             if (affectedRows > 0) {
-                logger.info("User с ID {} успешно удален из базы данных", id);
+                logger.info("Пользователь с ID {} успешно удалён.", id);
             } else {
-                logger.info("User с ID {} не найден в базе данных", id);
+                logger.warn("Пользователь с ID {} не найден в базе данных.", id);
             }
         } catch (SQLException e) {
-            logger.error("Error removing user: {}", e.getMessage());
+            logger.error("Ошибка при удалении пользователя с ID {}: {}", id, e.getMessage());
+            throw new RuntimeException(e);
         }
     }
 
+    /**
+     * Получение всех пользователей.
+     */
+    @Override
     public List<User> getAllUsers() {
         List<User> users = new ArrayList<>();
         String sql = "SELECT * FROM users";
-
         try (Connection conn = Util.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql);
              ResultSet rs = pstmt.executeQuery()) {
-
             while (rs.next()) {
                 User user = new User();
                 user.setId(rs.getLong("id"));
@@ -96,24 +110,28 @@ public class UserDaoJDBCImpl implements UserDao {
                 user.setAge(rs.getByte("age"));
                 users.add(user);
             }
-            logger.info("Retrieved {} users from the database", users.size());
+            logger.info("Получено {} пользователей из базы данных.", users.size());
         } catch (SQLException e) {
-            logger.error("Error retrieving users: {}", e.getMessage());
+            logger.error("Ошибка при получении списка пользователей: {}", e.getMessage());
+            throw new RuntimeException(e);
         }
         return users;
     }
 
+    /**
+     * Очистка таблицы пользователей.
+     */
+    @Override
     public void cleanUsersTable() {
-        String cleanTableSQL = "DELETE FROM users";
-
+        String sql = "TRUNCATE TABLE users";
         try (Connection conn = Util.getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(cleanTableSQL)) {
-
-            int rowsAffected = pstmt.executeUpdate();
-            logger.info("Таблица 'users' очищена. Удалено записей: {}", rowsAffected);
-
+             PreparedStatement pstmt = conn.prepareStatement(sql)) {
+            int affectedRows = pstmt.executeUpdate();
+            logger.info("Таблица 'users' успешно очищена. Удалено строк: {}", affectedRows);
         } catch (SQLException e) {
-            logger.error("Error cleaning users table: {}", e.getMessage());
+            logger.error("Ошибка при очистке таблицы 'users': {}", e.getMessage());
+            throw new RuntimeException(e);
         }
     }
 }
+

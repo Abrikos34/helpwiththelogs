@@ -14,9 +14,9 @@ public class Util {
         throw new UnsupportedOperationException("Utility class should not be instantiated");
     }
 
-    private static final String URL = "jdbc:mysql://localhost:3306/mydb";
-    private static final String USERNAME = "user";
-    private static final String PASSWORD = "user";
+    private static final String URL = "jdbc:mysql://localhost:3306/user_database";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "bibuzi34";
 
     public static Connection getConnection() {
         Connection connection = null;
